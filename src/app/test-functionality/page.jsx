@@ -59,7 +59,7 @@ export default function TestFunctionality() {
 
    const editor = useEditor({
       extensions: [StarterKit],
-      content: '<p>Hello World! 🌎️</p>',
+      content: '<p>Hello World! 🌎️</p> <p> New line </p>',
    })
 
    return (

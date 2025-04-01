@@ -7,8 +7,8 @@ const ArtBoard = ({ ref }) => {
       className='h-[1123px] w-[794px] p-16 bg-white shadow-lg mx-auto'
     >
       <h1 className='font-bold text-left text-2xl text-red-400'>Art Board</h1>
-      <h1 className='font-bold text-right text-2xl text-red-400'>Art Board</h1>
-      <p className='text-justify text-gray-600 mt-5'>
+      <h1 className='font-bold text-right text-2xl text-red-400' contentEditable>Art Board</h1>
+      <p className='text-justify text-gray-600 mt-5' contentEditable>
         derit deleniti animi ducimus quos. Illo, iure quis quidem labore neque
         quaerat fuga repellat. Voluptatibus, aperiam ducimus, sunt distinctio
         sapiente veritatis et ullam porro molestiae eius dolorum doloribus
